@@ -20,6 +20,7 @@ def remove_strawberry(contacts)
       if attributes == [:favorite_ice_cream_flavors]
         if array.include?("strawberry")
           array.delete("strawberry")
+          array
         end
       end 
     end 
